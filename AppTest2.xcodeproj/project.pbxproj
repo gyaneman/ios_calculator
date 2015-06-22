@@ -13,6 +13,7 @@
 		C3CDE8ED1B36A50700986CE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CDE8EC1B36A50700986CE5 /* Images.xcassets */; };
 		C3CDE8F01B36A50700986CE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3CDE8EE1B36A50700986CE5 /* LaunchScreen.xib */; };
 		C3CDE8FC1B36A50700986CE5 /* AppTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDE8FB1B36A50700986CE5 /* AppTest2Tests.swift */; };
+		C3CDE9061B36B78D00986CE5 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CDE9051B36B78D00986CE5 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C3CDE8F51B36A50700986CE5 /* AppTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CDE8FA1B36A50700986CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3CDE8FB1B36A50700986CE5 /* AppTest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTest2Tests.swift; sourceTree = "<group>"; };
+		C3CDE9051B36B78D00986CE5 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C3CDE8EC1B36A50700986CE5 /* Images.xcassets */,
 				C3CDE8EE1B36A50700986CE5 /* LaunchScreen.xib */,
 				C3CDE8E31B36A50700986CE5 /* Supporting Files */,
+				C3CDE9051B36B78D00986CE5 /* Calculator.swift */,
 			);
 			path = AppTest2;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				C3CDE8E81B36A50700986CE5 /* ViewController.swift in Sources */,
 				C3CDE8E61B36A50700986CE5 /* AppDelegate.swift in Sources */,
+				C3CDE9061B36B78D00986CE5 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				C3CDE9011B36A50700986CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3CDE9021B36A50700986CE5 /* Build configuration list for PBXNativeTarget "AppTest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				C3CDE9041B36A50700986CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
