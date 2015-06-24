@@ -11,12 +11,17 @@ import UIKit
 class ViewController: UIViewController {
     var calculator = Calculator()
     @IBOutlet weak var labelTest: UILabel!
+    
     @IBAction func btnAction(sender: AnyObject) {
         labelTest.text = "Hello, world"
         //calculator.inputTest(3)
         //labelTest.text = String(calculator.displayVal)
     }
     
+    @IBAction func btn0Event(sender: AnyObject) {
+        calculator.inputValue(0)
+        labelTest.text = String(calculator.displayVal)
+    }
     
     @IBAction func btn1Event(sender: AnyObject) {
         calculator.inputValue(1)
@@ -87,6 +92,7 @@ class ViewController: UIViewController {
         calculator.inputOperator(Operator.Div)
         labelTest.text = String(calculator.displayVal)
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

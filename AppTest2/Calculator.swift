@@ -37,16 +37,6 @@ class Calculator {
         self.ope = Operator.None
     }
     
-    /*func inputTest(val:Int) {
-        self.val1 = self.val1 * 10 + val
-        self.displayVal = self.val1
-    }*/
-    /*
-    func setOperator(arg:Operator){
-        self.ope = arg
-        self.displayVal = calc()
-    }*/
-    
     func inputValue(val:Int){
         switch self.state {
         case 0:
@@ -62,7 +52,7 @@ class Calculator {
         default:
             initState()
         }
-        println(state)
+        //println(state)
     }
     
     func inputOperator(arg:Operator){
@@ -85,7 +75,7 @@ class Calculator {
         default:
             initState()
         }
-        println(state)
+        //println(state)
     }
     
     func calc() -> Int{
