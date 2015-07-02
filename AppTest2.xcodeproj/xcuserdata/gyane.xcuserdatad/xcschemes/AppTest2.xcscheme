@@ -51,6 +51,11 @@
                BlueprintName = "AppTest2Tests"
                ReferencedContainer = "container:AppTest2.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "AppTest2Tests/testCalcAdd()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
